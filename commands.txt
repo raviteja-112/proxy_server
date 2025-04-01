@@ -1,0 +1,5 @@
+--listen-host 127.0.0.1
+--listen-port 8080
+--web-host 127.0.0.1
+--web-port 8081
+mitmweb -s .\mitmweb_proxy.py --listen-host 127.0.0.1 --listen-port 8080
